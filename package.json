@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/react-bootstrap.react-bootstrap.button": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.form": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.internal.style-links": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.nav": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.navbar": "^1.0.0",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
@@ -34,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  },
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0",
+    "styles-components": ">=4.0.0",
+    "@storybook/react": ">=5.2.0"
   }
 }
